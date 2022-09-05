@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animate numbers on scroll</title>
+        <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <div class="container"  id="keshi"  >
+        <div data-count="233">0</div>
+        <div data-count="19">0</div>
+        <div data-count="103">0</div>
+    </div>
+
+<script src="assets/animate.js"></script>
+<script>
+    new animateNumber({
+    parentSelector: '#keshi',
+    time: 8000,
+    event:'load' , //you can use scroll and..
+})
+</script>
+</body>
+</html>

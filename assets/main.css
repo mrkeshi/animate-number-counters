@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+justify-content: center;
+width: 800px;
+grid-gap: 25px;
+
+margin: 50px auto;
+
+}
+.container>div{
+    row-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #474747;
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    font-size:40px;
+    color: #474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
