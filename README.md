@@ -17,7 +17,7 @@ You can see the demo from <a href="https://codepen.io/mrkeshi/pen/YzLPYqY">here<
 })
 ```
 <br><br>
-3-set data-counter attribute and parent element
+3-set data-count attribute and parent element
 ```
  <div id="parent">
         <div data-count="233">0</div>
