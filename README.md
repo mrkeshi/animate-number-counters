@@ -1,4 +1,4 @@
-# animate-number-counters
+# animate number counters
 You can easily animate a number counter like the Pros do! 
 <br>
 # demo
@@ -23,4 +23,3 @@ You can see the demo from <a href="https://codepen.io/mrkeshi/pen/YzLPYqY">here<
         <div data-count="233">0</div>
     </div>
 ```
-4- finish
